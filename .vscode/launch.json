@@ -11,7 +11,7 @@
             "target": "${fileDirname}/${fileBasenameNoExtension}",
             "cwd": "${workspaceRoot}",
             "valuesFormatting": "prettyPrinters",
-            "preLaunchTask": "g++ build active file"
+            "preLaunchTask": "g++ build active file",
         }
     ]
 }

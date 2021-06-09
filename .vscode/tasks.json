@@ -7,11 +7,11 @@
         "type": "shell",
         "label": "g++ build active file",
         "command": "g++",
-        "args": ["-g", "${file}", "-o", "${fileDirname}/${fileBasenameNoExtension}"],
+        "args": ["${file}", "-o", "${fileDirname}/${fileBasenameNoExtension}", "-g3", "-fcompare-debug-second"],
         "group": {
           "kind": "build",
           "isDefault": true
-        }
+        }       
       }
     ]
 }
