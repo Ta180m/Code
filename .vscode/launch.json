@@ -10,6 +10,7 @@
             "request": "launch",
             "target": "${fileDirname}/${fileBasenameNoExtension}",
             "cwd": "${workspaceRoot}",
+            "arguments": "< in > out",
             "valuesFormatting": "prettyPrinters",
             "preLaunchTask": "g++ build active file",
         }
